@@ -1,0 +1,94 @@
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.index-body1{
+    background-color: #0C0707; color: #fff;
+}
+.index-body2{
+    background-color: #fff; 
+}
+header {
+    background-color: #000033; color: #ffffff;
+}
+nav {
+    color: #fff ;
+    background-color: gray;
+    padding: 8px;
+    text-align: center;
+    margin-top: 0px;
+}
+a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+h2 {
+    color: #838385;
+}
+.resort {
+    color: #e71010;
+    
+}
+.contact {
+    background-color: #000033; color: #ffffff;
+}
+h1 {
+    margin-bottom: 0; margin-top: 0; text-align: center;
+}
+table {
+    border: 2px solid #3399cc;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 0.5em; padding: 2px solid #3399cc;
+    text-align: center;
+}
+.text {
+    text-align: left;
+}
+tr:nth-of-type(odd) {background-color: #f5fafc;}
+* {
+    font-family: 'Arial', sans-serif;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .half {
+        display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+        width: 80%;
+      font-size: 34px;
+  }
+.image{
+    margin: 20px;
+    border-radius: 16px;
+}
+.h1{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.hh{
+    text-align: center;
+    width: 100%;
+    margin-top: 370px;
+}
+footer{
+    margin-bottom: 0px;
+}
+.colors{
+    background-image: linear-gradient(to bottom ,#030303 ,#2b080b);
+    color: #fff;
+}
